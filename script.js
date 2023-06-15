@@ -85,7 +85,7 @@ const handleClickAR = (event, button, id) => {
         const src = data.model.android;
 
         let href = null;
-        href = `intent://arvr.google.com/scene-viewer/1.0?file=${src}&mode=ar_only&resizable=false&disable_occlusion=true&enable_vertical_placement=true`;
+        href = `intent://arvr.google.com/scene-viewer/1.0?file=${src}&mode=ar_only&resizable=false&disable_occlusion=true`;
 
         if (!src) {
           console.error("Invalid src in <ar-button>: " + button);
